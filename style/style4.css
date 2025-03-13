@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background-color: #502982;
+}
+.header {
+    width: 100%;
+    height: 80px;
+    display: block;
+    background-color: #101010;
+}
+
+.inner_header {
+    width: 1000px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    
+}
+
+.logo_container {
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.logo_container h1 {
+    color: #502982;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+    font-weight: 200;
+}
+
+.logo_container h1 span {
+    font-weight: 800;
+    color: #A69800;
+}
+
+.navigation {
+    float: right;
+    height: 100%;
+}
+
+.navigation a {
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+}
+
+.navigation a:last-child {
+    padding: 0;
+}
+
+.navigation a li {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+.footer_conteiner {
+    padding: 1000px 0 0 0;
+}
+.footer {
+    position: fixed;
+    background-color: #101010;
+    height: 10vh;
+    width: 100%;
+    bottom: 0px;
+}
+
+.footer  h2 {
+    height: 100%;
+    color: white;
+    position: absolute;
+    left: 45%;
+    top: 35%;
+}
+
+.description {
+    padding: 25px 100px 50px 100px;
+    padding-left: 10px;
+    background-color: #A69800;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.description h1 {
+    color: white;
+    padding: 0px 0px 30px 0px;
+}
+
+.description p {
+    vertical-align: middle;
+    padding: 0px 150px 0px 150px;
+}
+
+.transition{
+    background-color: black;
+    color:#502982;
+    font-size: 30px;
+    text-align: center;
+}
+
+.description span{
+    padding-left: 55px ;
+    font-size: 25px; 
+
+}
+
+.oss{
+    background-color: #502982;
+    color:black;
+    font-size: 20px;
+    float: left;
+    text-align: center;
+    margin: 0 0 10vh 0;
+}
+
+.oss1{
+    display: inline-block;
+    width: 42%;
+    vertical-align: top;
+}
+
+.telegram-button {
+    margin: 300px 0px 500px 600px;
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #0088cc;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.telegram-button:hover {
+    background-color: #006699;
+}
+
+.telegram-button:active {
+    background-color: #005580;
+}
